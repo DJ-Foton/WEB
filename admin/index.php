@@ -71,7 +71,7 @@
     }
 
     function login () {
-    $pass = "2Nadrazni8Pernink4";
+    $pass = "123";
     if ($_POST['heslo'] == $pass){
         $_SESSION['authuser'] = 1;
     }
